@@ -2,6 +2,8 @@
 
 A simple command line interface for calling APIs from Spotify, Bands in Town and OMDB
 
+**Link to a demo video:** https://youtu.be/LXRH2tCozuA
+
 # API Keys
 
 The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a client id and client secret:
