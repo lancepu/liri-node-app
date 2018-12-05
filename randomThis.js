@@ -14,7 +14,7 @@ module.exports = function randomThis(){
 }
 
 function doRandom(data){
-    let randomArr = data.split('\n')
+    let randomArr = data.split (/\r?\n/)
     let randomIndex = Math.floor(Math.random() * randomArr.length)
     let randomCommand = randomArr[randomIndex]
     let command = randomCommand.split(',')
